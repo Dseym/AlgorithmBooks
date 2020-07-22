@@ -7,7 +7,7 @@ Plugin capabilities:
 1. start, end - start algorithm and end algorithm
 2. forward, back, left, right, run, jump - walking and jump
 3. if 1 == 1 - conditions
-4. rotate - turn the player's head (requires input: rotate = degreeX, degreeY)
+4. rotate - turn the player's head (requires input: rotate = degX, degY)
 5. write - displays a message in the chat (requires input: write = input)
 6. &testVariable = 1 - variable declarations (example of using a variable: write = &testVariable&)
 7. #testMetka - label to goto it (jump to label: goto testMetka)
@@ -20,7 +20,7 @@ Plugin capabilities:
 14. drop - throws the item in the player's hand under him
 
 #Examples in pictures
-
+URLs
 
 Video about the plugin (in Russian) - URL.
 
@@ -30,17 +30,31 @@ Video about the plugin (in Russian) - URL.
 3. Now you have the code that you can edit!
 
 # Install for Server
-1. Download the compiled [AlgorithmBooks](https://github.com/Dseym/blocksDrops/releases/download/blocksDrops/dropsblocks.jar) and upload it to your server.
+1. Download the compiled [AlgorithmBooks](https://github.com/Dseym/AlgorithmBooks/releases/download/AlgorithmBooks/AlgorithmBooks.jar) and upload it to your server.
 2. Have fun!
 
 If you need to translate the plugin into English, then write to Issues.
+If you need a version for 1.14.4 or higher, then write to Issues.
 
 ## RUS
 #Описание
-
+1. start, end - 
+2. forward, back, left, right, run, jump - 
+3. if 1 == 1 - 
+4. rotate - 
+5. write - 
+6. &testVariable = 1 - 
+7. #testMetka - 
+8. timeout - 
+9. slot - 
+10. click left - 
+11. click right - 
+12. lookToBlock - 
+13. send - 
+14. drop - 
 
 #Примеры в картинках
-
+URLs
 
 Видео о плагине (на русском) - URL.
 
@@ -50,7 +64,9 @@ If you need to translate the plugin into English, then write to Issues.
 3. Теперь у Вас есть код для редактирования!
 
 # Установка на сервер
-1. Скачайте скомпилированный [AlgorithmBooks](https://github.com/Dseym/blocksDrops/releases/download/blocksDrops/dropsblocks.jar) и загрузите на свой сервер.
+1. Скачайте скомпилированный [AlgorithmBooks](https://github.com/Dseym/AlgorithmBooks/releases/download/AlgorithmBooks/AlgorithmBooks.jar) и загрузите на свой сервер.
 2. Веселитесь!
+
+Eсли понадобиться версия для 1.14.4 или выше, пишите в Issues.
 
 Для свободного использование.
