@@ -1,0 +1,6 @@
+name: AlgorithmBooks
+version: 1.0
+main: bot_plugin.main
+commands:
+  bot:
+    usage: /bot <command>
