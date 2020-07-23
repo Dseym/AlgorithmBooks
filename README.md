@@ -2,7 +2,7 @@
 Плагин, позволяющий программировать прямо в книжке! В майнкрафт! Пишите свои алгоритмы для своего игрока! / A plugin that allows you to program right in the book! Minecraft! Write your own algorithms for your player!
 
 ## ENG
-#Description
+# Description
 Plugin capabilities:
 1. start, end - start algorithm and end algorithm
 2. forward, back, left, right, run, jump - walking and jump
@@ -19,8 +19,12 @@ Plugin capabilities:
 13. send - sends a message to the chat from the player, can also call commands (example: send = /bot start)
 14. drop - throws the item in the player's hand under him
 
-#Examples in pictures
-URLs
+# Examples in pictures
+![alt text](screenshots/2020-07-23_15.56.08.PNG "")
+![alt text](screenshots/2020-07-23_15.56.12.PNG "")
+![alt text](screenshots/2020-07-23_15.56.28.PNG "")
+![alt text](screenshots/2020-07-23_15.56.34.PNG "")
+![alt text](screenshots/2020-07-23_15.56.41.PNG "")
 
 Video about the plugin (in Russian) - URL.
 
@@ -37,23 +41,23 @@ If you need to translate the plugin into English, then write to Issues.
 If you need a version for 1.14.4 or higher, then write to Issues.
 
 ## RUS
-#Описание
-1. start, end - 
-2. forward, back, left, right, run, jump - 
-3. if 1 == 1 - 
-4. rotate - 
-5. write - 
-6. &testVariable = 1 - 
-7. #testMetka - 
-8. timeout - 
-9. slot - 
-10. click left - 
-11. click right - 
-12. lookToBlock - 
-13. send - 
-14. drop - 
+# Описание
+1. start, end - начало и конец алгоритма
+2. forward, back, left, right, run, jump - движения игрока и прыжок
+3. if 1 == 1 - условие
+4. rotate - поворот головы игрока (требуется вход: rotate = градусX, градусY)
+5. write - вывести в чат собщение (требуется вход: write = 1)
+6. &testVariable = 1 - создание переменной (пример использования: write = &testVariable&)
+7. #testMetka - метка для перехода к ней (пример перехода: goto #testMetka)
+8. timeout - приостанавливает выполнение аглоритма (пример: timeout миллисекунды)
+9. slot - меняет слот игроку (пример: slot 5)
+10. click left - ломает блок на который смотри игрок
+11. click right - ставит блок который у игрока в руках
+12. lookToBlock - функция, возвращающая тип блока на который смотрит игрок (пример: &testTargetBlock = lookToBlock)
+13. send - отправляет в чат сообщение от имени игрока, также отправляет и команды (пример: send /bot start)
+14. drop - выбрасывает предмет из руки игрока под себя
 
-#Примеры в картинках
+# Примеры в картинках
 URLs
 
 Видео о плагине (на русском) - URL.
