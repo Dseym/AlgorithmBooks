@@ -63,7 +63,7 @@ public class compile implements Runnable {
 		}
 		
 		Bukkit.getPlayer(name).sendMessage(tagPlugin + "Выполнение началось!");
-		time = Bukkit.getScheduler().runTaskTimer(plugin, this, 0, 4);
+		time = Bukkit.getScheduler().runTaskTimer(plugin, this, 0, 5);
 		
 	}
 	
@@ -271,7 +271,7 @@ public class compile implements Runnable {
 			} else if(lines[i].replace("  ", "").split(" ")[0].equalsIgnoreCase("timeout")) {
 				
 				time.cancel();
-				setTimeout(() -> time = Bukkit.getScheduler().runTaskTimer(plugin, this, 0, 4), Integer.parseInt(operation(transVar(lines[i].replace("  ", "").split(" ")[1]))));
+				setTimeout(() -> time = Bukkit.getScheduler().runTaskTimer(plugin, this, 0, 5), Integer.parseInt(operation(transVar(lines[i].replace("  ", "").split(" ")[1]))));
 				
 			} else if(lines[i].replace("  ", "").split(" ")[0].equalsIgnoreCase("slot")) {
 				
@@ -291,6 +291,11 @@ public class compile implements Runnable {
 				
 			} else if(lines[i].replace("  ", "").split(" = ")[0].equalsIgnoreCase("send")) {
 				
+				if(lines[i].replace("  ", "").split(" = ")[1].equalsIgnoreCase("/bot start")) {
+					
+					time.cancel();
+					
+				}
 				Bukkit.getPlayer(name).chat(lines[i].replace("  ", "").split(" = ")[1]);
 				
 			} else if(lines[i].replace("  ", "").split(" ")[0].equalsIgnoreCase("drop")) {
