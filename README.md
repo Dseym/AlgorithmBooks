@@ -20,11 +20,11 @@ Plugin capabilities:
 14. drop - throws the item in the player's hand under him
 
 # Examples in pictures
-![alt text](blob/master/screenshots/2020-07-23_15.56.08.PNG "")
-![alt text](blob/master/screenshots/2020-07-23_15.56.12.PNG "")
-![alt text](blob/master/screenshots/2020-07-23_15.56.28.PNG "")
-![alt text](blob/master/screenshots/2020-07-23_15.56.34.PNG "")
-![alt text](blob/master/screenshots/2020-07-23_15.56.41.PNG "")
+![alt text](/screenshots/2020-07-23_15.56.08.png "")
+![alt text](/screenshots/2020-07-23_15.56.12.png "")
+![alt text](/screenshots/2020-07-23_15.56.28.png "")
+![alt text](/screenshots/2020-07-23_15.56.34.png "")
+![alt text](/screenshots/2020-07-23_15.56.41.png "")
 
 Video about the plugin (in Russian) - URL.
 
@@ -58,7 +58,11 @@ If you need a version for 1.14.4 or higher, then write to Issues.
 14. drop - выбрасывает предмет из руки игрока под себя
 
 # Примеры в картинках
-URLs
+![alt text](/screenshots/2020-07-23_15.56.08.png "")
+![alt text](/screenshots/2020-07-23_15.56.12.png "")
+![alt text](/screenshots/2020-07-23_15.56.28.png "")
+![alt text](/screenshots/2020-07-23_15.56.34.png "")
+![alt text](/screenshots/2020-07-23_15.56.41.png "")
 
 Видео о плагине (на русском) - URL.
 
