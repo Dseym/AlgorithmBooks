@@ -26,7 +26,7 @@ Plugin capabilities:
 ![alt text](/screenshots/2020-07-23_15.56.34.png "")
 ![alt text](/screenshots/2020-07-23_15.56.41.png "")
 
-Video about the plugin (in Russian) - soon.
+Video about the plugin (in Russian) - https://www.youtube.com/watch?v=l8HEG-i7rbM.
 
 # Compile
 1. Download the source code and upload it to Eclipse for example.
@@ -64,7 +64,7 @@ If you need a version for 1.14.4 or higher, then write to Issues.
 ![alt text](/screenshots/2020-07-23_15.56.34.png "")
 ![alt text](/screenshots/2020-07-23_15.56.41.png "")
 
-Видео о плагине (на русском) - soon.
+Видео о плагине (на русском) - https://www.youtube.com/watch?v=l8HEG-i7rbM.
 
 # Компиляция
 1. Скачайте исходный код и загрузите, к примеру, в Eclipse.
